@@ -4,6 +4,8 @@
   "description": "para govirs",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon -r dotenv/config index.js",
+    "deploy": "node -r dotenv/config index.js",
     "test": "test"
   },
   "repository": {
@@ -21,6 +23,12 @@
   },
   "homepage": "https://github.com/Kraloz/virgo-bot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "loadsh": "0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
