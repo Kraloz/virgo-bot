@@ -1,0 +1,26 @@
+{
+  "name": "virgo-bot",
+  "version": "0.1.0",
+  "description": "para govirs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kraloz/virgo-bot.git"
+  },
+  "keywords": [
+    "pecho",
+    "puto"
+  ],
+  "author": "Tomas Aprile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kraloz/virgo-bot/issues"
+  },
+  "homepage": "https://github.com/Kraloz/virgo-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
